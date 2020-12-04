@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DashboardController {
 	@RequestMapping("/dashboard")
 	public String dashboard() {
-		return "Welcome to My Dashboard";
+		return "Welcome to Docker Dashboard";
 	}
 }
